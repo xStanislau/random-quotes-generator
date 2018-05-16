@@ -1,0 +1,70 @@
+.main-section {
+  font-family: "Roboto", Courier, monospace;
+  min-width: 300px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #fcc;
+}
+
+.header {
+  text-align: center;
+  font-weight: normal;
+}
+.btn {
+  font-family: "Roboto", Courier, monospace;
+  font-weight: normal;
+  width: 90px;
+  height: 37px;
+  font-size: 19px;
+  color: #fff;
+  background-color: #e11;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn:hover {
+  background-color: #e55;
+  color: #fff;
+}
+.btn:active {
+  background-color: #a11;
+  color: #fff;
+}
+.quote__text {
+  font-family: Exo, Courier, monospace;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+}
+.quote__text:before {
+  content: " \" ";
+  font-size: 19px;
+}
+.quote__text:after {
+  content: " \" ";
+  font-size: 19px;
+}
+.quote__author{
+  text-align: right;
+  margin-bottom: 10px;
+  font-family: Roboto;
+}
+#twitter-button {
+  font-family: roboto;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #1ae;;
+  padding: 3px 5px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#twitter-button:active {
+  background-color: #19e;
+}
